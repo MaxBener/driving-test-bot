@@ -1,0 +1,9 @@
+{
+    "telegram_token": "7246948684:AAGC-gZg5grFEe3774Y3G1ABdz8m2yDq7OM",
+    "chat_id": "7246948684",
+    "booking_id": "2859831855",
+    "surname": "korotkykh",
+    "location": "Castle Hill",
+    "check_interval_minutes": 10,
+    "date_cutoff": "2025-05-15"
+}
