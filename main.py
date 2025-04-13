@@ -48,7 +48,7 @@ def check_for_earlier_date():
         # Проверка Castle Hill и сравнение дат (упрощено)
         page_text = driver.page_source
         if LOCATION_NAME.lower() in page_text.lower() and "15 May 2025" not in page_text:
-            notify_user(f"‼️ Обнаружена более ранняя дата в {LOCATION_NAME}!
+            notify_user(f'‼️ Обнаружена более ранняя дата в {LOCATION_NAME}!')
 Проверь на сайте вручную:
 https://www.myrta.com/...")
         else:
